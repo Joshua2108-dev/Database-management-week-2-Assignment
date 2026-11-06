@@ -5,8 +5,8 @@ SELECT  orderDate, requiredDate, status FROM orders
 WHERE status = "In Process"
 ORDER BY orderDate DESC;
 -- QUESTION 3
-SELECT firstNamE, lastName, email FROM employees
-WHERE job title = "Sales Rep"
+SELECT firstName, lastName, email FROM employees
+WHERE jobTitle = 'Sales Rep'
 ORDER BY employeeNumber DESC;
 -- QUESTION 4
 SELECT * FROM offices;
