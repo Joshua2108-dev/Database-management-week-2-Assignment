@@ -1,8 +1,8 @@
 -- QUESTION 1
 SELECT checkNumber, paymentDate, amount FROM payments;
 -- QUESTION 2
-SELECT  orderDate, requiredDate, status FROM orders
-WHERE status = "In Process"
+SELECT orderDate, requiredDate, status FROM orders
+WHERE status = 'In Process'
 ORDER BY orderDate DESC;
 -- QUESTION 3
 SELECT firstName, lastName, email FROM employees
